@@ -1,0 +1,119 @@
+.nav {
+  font-weight: bold;
+  font-size: 1rem;
+  width: 100%;
+  background-color: transparent !important;
+  color: rgb(248, 252, 252) !important;
+  z-index: 9999;
+}
+.nav.active {
+  background-color: #bba983 !important;
+}
+nav img {
+  width: 40px;
+  height: 40px;
+  margin-left: 10px;
+}
+.navbar-toggler{
+  background-color: none !important;
+  margin-right: 10px;
+}
+.navbar-toggler:focus{
+  box-shadow: none !important;
+}
+.links {
+  color: rgb(255, 255, 255) !important;
+  margin: 0.5rem 1rem;
+  transition: all 1s;
+  width: 120px;
+  text-align: center;
+}
+.links:hover{
+  transform: scale(1.1);
+  border: 1px solid  #f0eeea;
+  border-radius: 10px;
+  padding-left: 0px !important;
+  padding-bottom: 0px;
+}
+.nav-link{
+  padding: 0px !important;
+  height: 25px;
+}
+.home-link,
+.about-link{
+  margin-left: 0px;
+  margin-right: 0;
+}
+.home-link{
+  margin-right: 0;
+}
+.navbar-collapse {
+  justify-content: center;
+  align-items: center;
+}
+.dropdown-toggle::after{
+  margin: -3px 5px !important;
+}
+
+#basic-nav-dropdown {
+  color: white !important;
+  margin-left: 20px;
+  text-align: center;
+  width: 120px;
+  font-size: 15px;
+  letter-spacing: 1px;
+}
+.items {
+  color: white !important;
+  background-color: #d6c191 !important;
+  transition: all 1s;
+}
+.items:hover{
+  border: 1px solid white;
+  border-radius: 5px;
+}
+.items-one{
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.items-last{
+  border-bottom-left-radius:5px;
+  border-bottom-right-radius: 5px;
+}
+.sign-up {
+  color: white;
+  font-size: 1rem;
+  background-color: transparent;
+  border-radius: 10px;
+  border: 1px solid rgb(243, 246, 248);
+  width: 120px;
+  transition: all 1s;
+  padding: 10px;
+  margin-top: 5px;
+}
+.sign-up i {
+  margin:0px 10px;
+}
+.sign-up:hover {
+  background-color: #e8d099;
+  border: 1px solid #f7f5f1;
+}
+.sign-up-collapsed{
+  margin-top: 1rem;
+  display: block;
+
+}
+.navbar-colored{
+    background-color: #d6c191;
+}
+
+.dropdown-menu {
+  width: 110px;
+  text-align: center;
+  margin: 5px 4rem  !important;
+  --bs-dropdown-bg:none !important;
+  --bs-dropdown-border-color: none !important;
+  --bs-dropdown-border-radius: 10px !important;
+  border-radius:10px !important;
+  transition: all 1s;
+}

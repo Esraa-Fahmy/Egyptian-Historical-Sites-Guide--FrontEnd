@@ -1,0 +1,97 @@
+.card{
+  border: none !important;
+  position: relative;
+  background-color: transparent;
+
+
+}
+.card-img-top {
+border-radius: 0.5rem !important;
+height: 300px;
+transition: all 2s;
+width: 100%;
+overflow: hidden;
+}
+/* .card-img-top::after{
+position: absolute;
+content: " ";
+width: 0;
+height: 0;
+top:0;
+left: 0;
+opacity: 0;
+background-color: bisque;
+
+}
+.card-img-top:hover{
+transform: scale(1.1);
+}
+.card-img-top:hover::after{
+width: 100%;
+height: 100%;
+opacity: 0.5;
+} */
+
+.CategoryName{
+color: #c67b2f !important;
+/* color: #0c5555 !important; */
+font-size: 1.5rem;
+font-weight: bold;
+transition: all 1s;
+}
+.CategoryName:hover{
+transform: translate(5px);
+
+}
+.image{
+position: relative;
+transition: all 1s;
+
+}
+.exploreBtn{
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%,-50%);
+color: rgb(255, 255, 255) !important;
+border-bottom-left-radius: 20px !important;
+background-color: rgb(98, 129, 153) !important;
+z-index: 5;
+visibility: hidden;
+opacity: 0;
+transition: 1s;
+
+}
+.overLay{
+width: 100%;
+height: 100%;
+position: absolute;
+top: 0;
+left: 0;
+background-color: rgba(0, 0, 0);
+z-index: 1;
+visibility: hidden;
+opacity: 0;
+transition: 1s;
+border-radius: 0.5rem !important; 
+}
+.image:hover .overLay,
+.image:hover .exploreBtn{
+visibility: visible;
+opacity:0.5;
+
+}
+.image:hover .exploreBtn{
+opacity: 1;
+}
+.disable-hover:hover .overLay
+{
+display: none;
+pointer-events: none; 
+background-color: transparent;
+
+}
+.disable-hover:hover .exploreBtn{
+  display: none;
+
+}

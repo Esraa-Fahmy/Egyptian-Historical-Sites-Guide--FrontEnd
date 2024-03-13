@@ -1,0 +1,84 @@
+.Register {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(/src/assets/images/Layer\ 1\ copy\ 3.png);
+}
+
+.form-container {
+    width: 300px;
+}
+
+.form-switch {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 0;
+}
+.form-switch div {
+    /* cursor: pointer;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px 5px 0 0; */
+
+    cursor: pointer;
+    padding: 5px;
+    width: 120px;
+    text-align: center;
+    color: white;
+    /* border: 1px solid #ccc; */
+    border:1px solid #cbb279;
+    border-radius: 5px;
+    font-size: 20px
+}
+
+.form-switch .active {
+    /* background-color: #ccc; */
+    background-color: #cbb279;
+}
+
+.form {
+    background-color: #cbb279;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .form h2 {
+    margin-bottom: 20px;
+    color: white;
+  }
+  
+  .form input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    /* background-color: #4caf50; */
+    background-color: #0c5555;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  
+  .switch {
+    text-align: center;
+  }
+  
+  .switch span {
+    cursor: pointer;
+    color: rgb(35, 35, 216);
+  }
+  .logIn,
+  .signUp{
+    color: black !important;
+    /* color: #0c5555; */
+  }

@@ -1,0 +1,28 @@
+video{
+    width:100%;
+    height: 100vh;
+    object-fit: cover;
+    position: relative;    
+}
+.content{
+    position: absolute;
+    top:70%;
+    left: 10%;
+}
+.arch-word{
+    font-family: 'Minion Pro bold Condensed';
+    color: white;
+}
+.Explore-button-video{
+  color: white;
+  font-size: 1.5rem;
+  padding: 10px;
+  border-bottom-left-radius: 30px;
+  background-color: rgb(98, 129, 153);
+  border: none;
+}
+.Explore-button-video:hover{
+    background-color: rgb(98, 129, 153);
+    border: none;
+    color: #fdfeff;
+}

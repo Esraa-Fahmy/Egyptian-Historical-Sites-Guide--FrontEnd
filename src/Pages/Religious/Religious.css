@@ -1,0 +1,51 @@
+/* img{
+    width:100%;
+    height:20vh;
+} */
+.secondImg{
+    height: 40vh;
+}
+.divImg{
+    position:relative;
+}
+.nameImg{
+    position: absolute;
+    left:15px;
+    bottom:0;
+    background-color: rgba(0, 0, 0, 0.6);
+    color:azure;
+
+}
+
+.titleSection{
+    color:#628199; 
+    font-family: 'Minion Pro bold Condensed';
+
+   
+}
+.sideTitle{
+    color:#bba983 ;
+    font-size: 20px;
+}
+.description{
+    color:#bba983;
+    line-height: 28px;
+}
+.mainPic{
+ 
+    text-align: center;
+}
+.carousel-indicators [data-bs-target]{
+    border-top: none !important;
+    border-bottom: none !important;
+}
+
+.carousel-control-next-icon,
+ .carousel-control-prev-icon  {
+    background-image: none  !important;
+}
+.custom-style-religious{
+    height: 250px;
+    width: 100%;
+    overflow: hidden;
+}

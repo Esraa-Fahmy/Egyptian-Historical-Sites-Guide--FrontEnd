@@ -1,0 +1,34 @@
+//const images = [
+//   { src: [{img1:'../../assets/images/Al-Azhar Mosque الجامع الأزهر, al-Jāmiʿ al-ʾAzhar Mosque Location_ al qahirah ,misr(cairo ,Egypt).jpg',alt: 'Al-Azhar Mosque'},
+//           {img2:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//           {img3:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//           {img4:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//           {img5:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//           {img6:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+
+// ], name: 'Al-Azhar Mosque' },
+//   { src: [{img:'../../assets/images/Al-Azhar Mosque الجامع الأزهر, al-Jāmiʿ al-ʾAzhar Mosque Location_ al qahirah ,misr(cairo ,Egypt).jpg',alt: 'Al-Azhar Mosque'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+
+// ], name: 'Al-Azhar Mosque' },
+//   { src: [{img:'../../assets/images/Al-Azhar Mosque الجامع الأزهر, al-Jāmiʿ al-ʾAzhar Mosque Location_ al qahirah ,misr(cairo ,Egypt).jpg',alt: 'Al-Azhar Mosque'},
+//         {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//         {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//         {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//         {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//         {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+
+// ], name: 'Al-Azhar Mosque' },
+//   { src: [{img:'../../assets/images/Al-Azhar Mosque الجامع الأزهر, al-Jāmiʿ al-ʾAzhar Mosque Location_ al qahirah ,misr(cairo ,Egypt).jpg',alt: 'Al-Azhar Mosque'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+//   {img:'../../assets/images/WhatsApp Image 2024-01-27 at 15.03.24.jpeg',alt:'aa'},
+
+// ], name: 'Al-Azhar Mosque' },
+//];

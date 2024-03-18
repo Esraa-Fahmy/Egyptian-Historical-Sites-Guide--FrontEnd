@@ -11,7 +11,6 @@ function FindIn() {
     return (
         <>
             <h4 className="FindIn-title text-center mb-3">DESTINATIONS</h4>
-            {/* <hr className="FindIn-hr" /> */}
             <div>
                 <ul className="FindIn-list list-group mb-5" data-aos="zoom-in">
                     {FindInData.map((item) => (

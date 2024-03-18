@@ -41,15 +41,16 @@
     /* padding-top:5vh; */
     text-align: center;
 }
-.custom-style-medical{
-    width:400px;
-    height: 200px;
-    border-radius: 10px;
 
-}
 .custom-style-Pharonic{
     width: 200px;
     height: 250px;
     margin:0px 3rem ;
     
+}
+.custom-style-medical{
+    width:400px;
+    height: 200px;
+    border-radius: 10px;
+
 }

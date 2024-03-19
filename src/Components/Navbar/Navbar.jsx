@@ -1,3 +1,4 @@
+
 import React, { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 import Nav from "react-bootstrap/Nav";
@@ -36,8 +37,8 @@ function NavBar() {
           ? scrolled
             ? "navbar-colored"
             : "navbar-transparent"
-          : "navbar-colored position-static"
-      } fixed-top`}
+          : "navbar-colored position-static  "
+      } fixed-top mb-5`}
     >
       <Navbar.Brand as={Link} to="/">
         <div className="imge">

@@ -38,8 +38,8 @@ const AdyanData = [
     ],
     AlternativeText: "Hanging Church",
     name: "Hanging Church",
-    description: `It was called the Hanging Church because 
-            it was built on two towers of the Roman fort known as “Babylon Fortress.”Many patriarchs of the eleventh and twelfth centuries 
+    description: `called the Hanging Church because 
+            it was built on “Babylon Fortress.”Many patriarchs of the eleventh and twelfth centuries 
             were buried in this church, and many trials of priests and bishops took place there.`,
     route: "",
   },
@@ -59,10 +59,10 @@ const AdyanData = [
       },
     ],
     AlternativeText: "Ben Ezra",
-    name: "Ebn Ezra",
+    name: "Ben Ezra",
     description: `attributed to Abraham Ibn Ezra,it was originally a church called the “Church of the
             Shameen” then converted into this temple. It contains a 
-           library containing a collection of books related to the history of the Jews in Egypt.`,
+           library containing a collection of books related to history of Jews in Egypt.`,
     route: "",
   },
 ];

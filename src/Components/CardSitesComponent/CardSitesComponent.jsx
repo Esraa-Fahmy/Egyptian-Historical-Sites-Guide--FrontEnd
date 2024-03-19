@@ -1,7 +1,8 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import axios from 'axios';
 import { Button } from "react-bootstrap";
 import BookmarkIcon from "../BookMarkIcon/BookMarkIcon";
+import Aos from "aos";
 
 function CardSitesComponent({
   data,
@@ -38,13 +39,15 @@ function CardSitesComponent({
             console.error('Error adding item to wishlist:', error);
         }
     };
-
+    useEffect(() => {
+      Aos.init({ duration: 3000 }); 
+    }, []); 
   return (
     <div className="container">
       <div className="row">
         {currentItems.map((item, index) => (
           <div key={index} className={`col-sm-12 col-md-12 col-lg-${gridClass}`}>
-            <div className="card position-relative ">
+            <div className="card position-relative"  data-aos="fade-up">
                 <p className="text-center SiteName">{item.name}</p>
               <div className={`image ${enableHover ? hoverStyle : ""}`}>
                   <img

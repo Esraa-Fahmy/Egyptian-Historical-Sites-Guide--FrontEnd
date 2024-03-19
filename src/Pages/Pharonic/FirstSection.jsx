@@ -12,8 +12,9 @@ export default function FirstSection({ title, subTitle, description, image ,cust
   }, []);
 
   return (
-       <Container>
-      <h1 className="mt-5 mb-5 titleSection" data-aos="fade-right">{title}</h1>
+       <div className='container' >
+ <h1 className="mt-5 mb-5 titleSection" data-aos="fade-right">{title}</h1>
+        <div className="row">
       <div className="container">
       <div className="row mb-5 justify-content-center align-items-center" data-aos="fade-left">
         <div className="col-sm-12 col-md-6 col-lg-6" >
@@ -25,7 +26,8 @@ export default function FirstSection({ title, subTitle, description, image ,cust
         </div>
       </div>
       </div>
-    </Container>
+      </div>
+    </div>
         
   
    

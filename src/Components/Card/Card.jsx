@@ -1,9 +1,10 @@
 
 
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import "./Card.css";
 import { Button, Carousel } from "react-bootstrap";
+import Aos from "aos";
 
 function Card({
   data,
@@ -15,19 +16,26 @@ function Card({
   showText,
   showDescription,
   enableClick, 
-}) {
+}) 
+
+{
   const dataRoute = [
     { route: "/pharonic" },
     { route: "/religious" },
     { route: "/medical" },
     { route: "/recreational" },  ];
 console.log(data)
+
+useEffect(() => {
+  Aos.init({ duration: 2000 }); 
+}, []); 
+
   return (
     <div className="container">
       <div className="row">
         {data.map((item, index) => (
           <div key={index} className={`col-sm-12 col-md col-lg-${gridClass}`}>
-            <div className="card mt-5">
+            <div className="card mt-5" data-aos="fade-up">
               {showText && (
                 <div>
                   <h5 className="text-center mb-3 CategoryName">{item.name}</h5>

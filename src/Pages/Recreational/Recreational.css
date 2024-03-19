@@ -1,5 +1,6 @@
 .custom-style-Recreational{
-    width:400px;
+    width:75%;
+    overflow: hidden;
     height: 250px;
     border-radius: 10px;
 }

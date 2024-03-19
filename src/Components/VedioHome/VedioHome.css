@@ -16,9 +16,11 @@ video{
 .Explore-button-video{
   color: white;
   font-size: 1.5rem;
-  padding: 10px;
-  border-bottom-left-radius: 30px;
-  background-color: rgb(98, 129, 153);
+  width: 100px;
+  padding: 10px !important;
+  border: 1px solid rgb(98, 129, 153) !important;
+  border-bottom-left-radius: 20px !important;
+  background-color: rgb(98, 129, 153) !important;
   border: none;
 }
 .Explore-button-video:hover{

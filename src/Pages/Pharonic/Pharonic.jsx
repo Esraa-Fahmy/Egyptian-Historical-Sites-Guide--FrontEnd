@@ -35,7 +35,7 @@ export default function Pharonic() {
       customStyle="custom-style-Pharonic"
       description="Egypt is considered the main source of the Pharaonic civilization in the world, because of the antiquities it contains that have greatly contributed to shaping human history and beliefs. Egypt has great wealth, great culture, and important antiquities. It contains about a third of the world's antiquities, and its antiquities vary between partial, Greek, Coptic, and Islamic antiquities."
     />
-      <h4 className=" text-center mt-5 " style={{color:"#0c5555",fontSize:"2rem", fontFamily: 'Minion Pro Bold Condensed'}}>PLACES</h4>
+      <h4 className=" text-center mt-5 mb-5 " style={{color:"#0c5555",fontSize:"2rem", fontFamily: 'Minion Pro Bold Condensed'}}>PLACES</h4>
 
 <CardSitesComponent
         data={pharonicSites}

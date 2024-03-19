@@ -19,13 +19,9 @@
 
 .titleSection{
     color:#628199; 
-<<<<<<< HEAD
     font-family: 'Minion Pro bold Condensed';
     font-size: 2rem;
-=======
-    font-family : 'Minion Pro bold Condensed';
  
->>>>>>> 4f72d1eefa435b99ebe5e9dd31bc6abaa22f01cd
 }
 
 .sideTitle{
@@ -49,8 +45,9 @@
     
 }
 .custom-style-medical{
-    width:400px;
-    height: 200px;
+    width:75%;
+    overflow: hidden;
+    height: 250px;
     border-radius: 10px;
 
 }

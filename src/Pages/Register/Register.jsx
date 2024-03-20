@@ -103,26 +103,34 @@ const Register = () => {
     username: '',
     email: '',
     password: '',
-    confirmPassword: ''
+    passwordConfirm: ''
   });
   const [error, setError] = useState('');
 
   const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData(prevState => ({
-      ...prevState,
-      [name]: value
-    }));
+    setFormData({ ...formData, [e.target.name]: e.target.value });
   };
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+    if (formData.password !== formData.passwordConfirm) {
+      setErrorMessage('Password and Confirm Password do not match');
+      return;
+    }
     try {
       const response = await axios.post('https://historical-sites.onrender.com/api/auth/signup', formData);
-      console.log(response.data); // Handle successful registration
+      console.log('User signed up successfully:', response.data);
+      
+      
     } catch (error) {
-      console.error('Registration failed:', error);
-      setError(error.response.data.message || 'Registration failed. Please try again.');
+      console.error('Signup failed:', error.response.data);
+      // If error.response.data.errors is defined and is an array, you can handle it
+      if (error.response.data.errors && Array.isArray(error.response.data.errors)) {
+        const errorMessage = error.response.data.errors.map(error => error.msg).join(', ');
+        setErrorMessage(errorMessage);
+      } else {
+        setErrorMessage('An error occurred while signing up. Please try again later.');
+      }
     }
   };
 

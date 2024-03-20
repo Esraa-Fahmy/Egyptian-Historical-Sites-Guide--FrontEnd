@@ -55,9 +55,9 @@ function NavBar() {
           <Nav.Link className="active links about-link" as={Link} to="/about">
             About
           </Nav.Link>
-          <Nav.Link className="links" as={Link} to="/suggestions">
+          {/* <Nav.Link className="links" as={Link} to="/suggestions">
             Suggestions
-          </Nav.Link>
+          </Nav.Link> */}
           <NavDropdown
             className="NavDropdown dropdown mt-2 "
             title="Categories"

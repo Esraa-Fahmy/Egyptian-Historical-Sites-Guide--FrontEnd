@@ -121,6 +121,7 @@ const Register = () => {
       const response = await axios.post('https://historical-sites.onrender.com/api/auth/signup', formData);
       console.log('User signed up successfully:', response.data);
       // Optionally, you can redirect the user to another page or show a success message here
+      
     } catch (error) {
       console.error('Signup failed:', error.response.data);
       // If error.response.data.errors is defined and is an array, you can handle it

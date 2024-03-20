@@ -63,7 +63,7 @@ import MainRoutes from './Components/MainRoutes/MainRotes';
 import AdminRoutes from './Components/Admin/AdminRoutes/AdminRoutes';
 import Footer from './Components/Footer/Footer';
 import BackToTop from './Components/BackToTop/BackToTop';
-
+import Profile from './Components/Profile/Profile';
 function App() {
   return (
     <>
@@ -73,6 +73,7 @@ function App() {
       <Routes>
         <Route path="/admin/*" element={<AdminRoutes />} />
         <Route path="/*" element={<MainRoutes />} />
+        <Route path='/Profile' element={<Profile/>}/>
       </Routes>
       <BackToTop/>
       <Footer/>

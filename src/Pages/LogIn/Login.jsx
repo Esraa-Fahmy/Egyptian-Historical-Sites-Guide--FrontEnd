@@ -1,22 +1,4 @@
-// import React from 'react'
-// import '../Register/Register.css'
-
-// const Login = () => {
-//   return (
-//     <div className='form'>
-//         <h2>Log In</h2>
-//         <input type='email' placeholder='E-mail' />
-//         <input type='password' placeholder='Password' />
-//         <button>Log in</button>
-//     </div>
-//   );
-// }
-
-// export default Login;
-
-
 import React, { useState } from 'react';
-import axios from 'axios';
 import './Login.css';
 
 const Login = () => {
@@ -36,8 +18,29 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const response = await axios.post('https://historical-sites.onrender.com/api/auth/login', formData);
-      console.log(response.data); // Handle successful login
+      const response = await fetch('https://historical-sites.onrender.com/api/auth/login', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify(formData)
+      });
+
+      if (!response.ok) {
+        throw new Error('Login failed');
+      }
+
+      const userData = await response.json();
+      console.log(userData)
+
+      // Check the role of the logged-in user
+      if (userData.data.role === 'admin') {
+        // Redirect to admin page for admin users
+        window.location.href = '/admin';
+      } else {
+        // Redirect to home page for regular users
+        window.location.href = '/';
+      }
     } catch (error) {
       console.error('Login failed:', error);
     }

@@ -1,0 +1,15 @@
+.sidebar{
+    background-color:#d6c191;
+    color: rgb(255, 255, 255);
+    height: 100%;
+    width: 200px;
+}
+.sidebar .sidebar-nav{
+    list-style: none;
+    text-align: center;
+    padding-left: 0;
+    padding-top: 3rem;
+}
+.sidebar .sidebar-nav .nav-item{
+    margin-top: 2rem;
+}

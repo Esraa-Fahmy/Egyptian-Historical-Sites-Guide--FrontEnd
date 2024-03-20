@@ -38,7 +38,7 @@ function NavBar() {
             ? "navbar-colored"
             : "navbar-transparent"
           : "navbar-colored position-static  "
-      } fixed-top mb-5`}
+      } fixed-top `}
     >
       <Navbar.Brand as={Link} to="/">
         <div className="imge">
@@ -114,7 +114,7 @@ function NavBar() {
       <Button
         className="sign-up ms-auto me-3 d-none d-md-none d-lg-block"
         as={Link}
-        to={"/register"}
+        to={"/login"}
       >
         <i className="fa-solid fa-user"></i>Sign In
       </Button>

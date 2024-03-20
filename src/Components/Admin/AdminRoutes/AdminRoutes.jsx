@@ -13,7 +13,7 @@ function AdminRoutes() {
   return (
     <>
       <Routes>
-        <Route path="/" element={<AdminDashboard />} />
+        <Route path="/" element={<AdminCategories />} />
         <Route path="/categories" element={<AdminCategories />} />
         <Route path="/subcategories" element={<SubCategories />} />
         <Route path="/sites" element={<Sites />} />

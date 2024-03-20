@@ -100,12 +100,12 @@ import './Register.css';
 
 const Register = () => {
   const [formData, setFormData] = useState({
-    username: '',
+    name: '',
     email: '',
     password: '',
     passwordConfirm: ''
   });
-  const [error, setError] = useState('');
+  const [errorMessage, setErrorMessage] = useState('');
 
   const handleChange = (e) => {
     setFormData({ ...formData, [e.target.name]: e.target.value });
@@ -117,11 +117,10 @@ const Register = () => {
       setErrorMessage('Password and Confirm Password do not match');
       return;
     }
-    try {
+     try {
       const response = await axios.post('https://historical-sites.onrender.com/api/auth/signup', formData);
       console.log('User signed up successfully:', response.data);
-      
-      
+      // Optionally, you can redirect the user to another page or show a success message here
     } catch (error) {
       console.error('Signup failed:', error.response.data);
       // If error.response.data.errors is defined and is an array, you can handle it
@@ -137,13 +136,13 @@ const Register = () => {
   return (
     <div className='form'>
       <h2>Sign Up</h2>
+      {/* {error && <p className="error-message">{error}</p>} */}
       <form onSubmit={handleSubmit}>
-        {error && <p className="error-message">{error}</p>}
         <input
           type='text'
-          name='username'
+          name='name'
           placeholder='User Name'
-          value={formData.username}
+          value={formData.name}
           onChange={handleChange}
         />
         <input
@@ -162,7 +161,7 @@ const Register = () => {
         />
         <input
           type='password'
-          name='confirmPassword'
+          name='passwordConfirm'
           placeholder='Confirm Password'
           value={formData.confirmPassword}
           onChange={handleChange}

@@ -168,7 +168,7 @@ function CardSitesComponent({
                                             />
                                         </p>
                                         {enableClick && (
-                                            <Button className="more-details-btton" onClick={() => handleClick(item.siteId)}>More details</Button>
+                                            <Button className="more-details-btton" onClick={() => handleClick(item._id)}>More details</Button>
                                         )}
                                     </div>
                                 )}

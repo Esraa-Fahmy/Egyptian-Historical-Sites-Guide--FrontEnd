@@ -14,7 +14,7 @@ import Suggestions from '../../Pages/Suggestions/Suggestions';
 import LogIn from '../../Pages/LogIn/Login'
 import Register from '../../Pages/Register/Register';
 import ForgetPassword from '../../Pages/ForgetPassword/ForgetPassword';
-
+import NotFound from '../../Pages/NotFound/NotFound';
 
 
 
@@ -35,6 +35,7 @@ function MainRoutes() {
     <Route path='/login' element={<LogIn/>}/>
     <Route path='/register' element={<Register/>}/>
     <Route path='/forgetPassword' element={<ForgetPassword/>}/>
+    <Route path= '*' element={<NotFound/>}/>
   </Routes>
   </>
   );

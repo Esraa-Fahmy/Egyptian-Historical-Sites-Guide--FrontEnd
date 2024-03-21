@@ -1,0 +1,14 @@
+.review-bigDiv{
+    /* width: 30rem; */
+    background-color: rgb(153, 48, 139);
+    border:6px solid rgb(171, 127, 69);
+    border-radius: 20px;
+    
+}
+.userName{
+    color: #c67b2f ;
+}
+.titleUsers{
+    color:#0c5555; 
+
+}

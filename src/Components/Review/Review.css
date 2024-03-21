@@ -1,0 +1,56 @@
+.review-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+  
+  .file-input {
+    margin-bottom: 10px;
+  }
+  
+  textarea {
+    margin-bottom: 10px;
+    height: 100px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #628199;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #37577a;
+  }
+  .star-rating {
+    font-size: 24px;
+  }
+  
+  .star {
+    color: white;
+    cursor: pointer;
+  }
+  
+ 
+  input[type="radio"]{
+    display: none;
+  }
+  .submit{
+    background-color:#628199;
+    color: white;
+    padding: 10px 40px;
+    
+  }
+  .submit:hover {
+    border: #628199 1px solid !important;
+  }
+  .error-message{
+    border:rgb(210, 110, 110) 1px solid
+  }
+  .error-message:hover {
+    background-color:#a5425c;
+    color: white;
+  }
